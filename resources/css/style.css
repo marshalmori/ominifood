@@ -19,7 +19,7 @@ html {
 }
 
 /*-------------------------------------------------*/
-                /* BASIC SETUP */
+                /* REUSABLE COMPONENTS */
 /*-------------------------------------------------*/
 
 .row {
@@ -27,21 +27,7 @@ html {
     margin: 0 auto;
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
+/*----------------HEADINGS------------------------*/
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -53,6 +39,8 @@ h1 {
     word-spacing: 3px;
 }
 
+
+/*----------------BUTTONS------------------------*/
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -92,7 +80,29 @@ h1 {
 .btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
- }
+}
+
+
+/*-------------------------------------------------*/
+                /* HEADER */
+/*-------------------------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 
 
